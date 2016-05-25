@@ -242,6 +242,7 @@ namespace NetDiff
             var result = globallyIgnoredField || globallyIgnoredContainingText;
             result = result || (typeIgnoresField.HasValue && (bool)typeIgnoresField);
             result = result || (typeIgnoresContainingText.HasValue && (bool)typeIgnoresContainingText);
+            result = result || info.IsPrivate;
 
             return result;
         }

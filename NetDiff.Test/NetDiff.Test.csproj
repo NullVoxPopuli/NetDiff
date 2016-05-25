@@ -98,7 +98,10 @@
     <Compile Include="TestObjects\GenericDynamicObjectCopy.cs" />
     <Compile Include="TestObjects\NestingObject.cs" />
     <Compile Include="TestObjects\ObjectWithList.cs" />
+    <Compile Include="TestObjects\ObjectWithPrivateMembers.cs" />
     <Compile Include="TestObjects\ObjectWithProperties.cs" />
+    <Compile Include="TestObjects\ObjectWithReadOnlyCollectionField.cs" />
+    <Compile Include="TestObjects\ObjectWithReadOnlyCollectionProperty.cs" />
     <Compile Include="TestObjects\SubObject.cs" />
     <Compile Include="TestObjects\SlightlyDifferentObject.cs" />
     <Compile Include="TestObjects\GenericDynamicObject.cs" />
